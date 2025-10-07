@@ -12,7 +12,7 @@ library(readxl)
 library(purrr)
 
 if (!dir.exists("../res/annotated")) dir.create("../res/annotated", recursive = TRUE)
-if (!dir.exists("../data/R_objects")) dir.create("../res/R_objects", recursive = TRUE)
+if (!dir.exists("../data/R_objects")) dir.create("../data/R_objects", recursive = TRUE)
 
 
 # ==== Load data ===============================================================

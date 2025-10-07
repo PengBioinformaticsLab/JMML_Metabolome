@@ -4,6 +4,7 @@ library(naniar)
 # assumes this just ran:
 #source("01a_save_data_rds_lilly_bc.R")
 
+if (!dir.exists("../res/annotated/QC")) dir.create("../res/annotated/QC", recursive = TRUE)
 # ==== ZHP Missingness =========================================================
 
 # Filter and reshape
